@@ -1,0 +1,19 @@
+    <div class="container">
+        <div class="row">
+
+            <% if (!contact) { %> 
+
+                Data Contact tidak ada.
+                
+            <% } else { %> 
+
+                <%= contact.nama  %> 
+                <%= contact.nohp  %> 
+                <%= contact.email  %> 
+
+            <% } %> 
+
+
+            <a href="/contact">Kembali ke halaman contact</a>
+        </div>
+    </div>
